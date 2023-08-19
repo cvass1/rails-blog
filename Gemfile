@@ -48,8 +48,6 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-# Make errors look better
-gem 'better_errors', '~> 2.10', '>= 2.10.1'
 
 # Bulma CSS 
 gem 'bulma-rails', '~> 0.9.4'
@@ -71,6 +69,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Make errors look better
+  gem 'better_errors', '~> 2.10', '>= 2.10.1'
 
   # Guard is a command line tool to easily handle events on file system modifications.
   gem 'guard', '~> 2.18'
