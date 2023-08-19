@@ -29,10 +29,26 @@ Install the dependencies
 ; bundle install
 ```
 
-Need to configure the simple_form gem:
+Configure the simple_form gem:
 
 ```
 rails generate simple_form:install
 ```
 
-- ...
+Configure guard-livereload:
+
+```
+guard init livereload
+```
+
+Install liveReload browser extension:
+
+```
+https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
+```
+
+Execute guard
+
+```
+bundle exec guard
+```
