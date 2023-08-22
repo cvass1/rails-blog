@@ -23,13 +23,13 @@ Install the dependencies
 Configure the simple_form gem:
 
 ```
-rails generate simple_form:install
+; rails generate simple_form:install
 ```
 
 Configure guard-livereload:
 
 ```
-guard init livereload
+; guard init livereload
 ```
 
 Install liveReload browser extension:
@@ -41,7 +41,7 @@ https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkigh
 During development execute guard on a separate terminal
 
 ```
-bundle exec guard
+; bundle exec guard
 ```
 
 ## How to run
@@ -49,7 +49,7 @@ bundle exec guard
 Start the server
 
 ```
-rails s
+; rails s
 ```
 
 ### Rails Template README
