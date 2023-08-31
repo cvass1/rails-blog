@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+
+# User.new(name, surname)
+# User.new(params = {name: "", surname: ""})
+# User.new({name: "", surname: ""})
+# User.new(name: "", surname: "")
+
+user = User.new(first_name: "caz", last_name: "vass", email_address: "email@email.com")
+user.save
+post = Post.new(title: "first title", content: "first text", user_id: user.id)
+post.save
+
+puts user
+puts post
